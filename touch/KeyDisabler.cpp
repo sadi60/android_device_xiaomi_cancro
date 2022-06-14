@@ -21,7 +21,7 @@
 #include "KeyDisabler.h"
 
 namespace vendor {
-namespace lineage {
+namespace dot {
 namespace touch {
 namespace V1_0 {
 namespace implementation {
