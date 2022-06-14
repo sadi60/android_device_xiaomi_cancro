@@ -17,7 +17,7 @@
 #ifndef VENDOR_LINEAGE_TOUCH_V1_0_GLOVEMODE_H
 #define VENDOR_LINEAGE_TOUCH_V1_0_GLOVEMODE_H
 
-#include <vendor/lineage/touch/1.0/IGloveMode.h>
+#include <vendor/dot/touch/1.0/IGloveMode.h>
 
 namespace vendor {
 namespace lineage {
@@ -31,7 +31,7 @@ class GloveMode : public IGloveMode {
   public:
     GloveMode();
 
-    // Methods from ::vendor::lineage::touch::V1_0::IGloveMode follow.
+    // Methods from ::vendor::dot::touch::V1_0::IGloveMode follow.
     Return<bool> isEnabled() override;
     Return<bool> setEnabled(bool enabled) override;
 };
