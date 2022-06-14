@@ -28,10 +28,10 @@ using android::status_t;
 using android::hardware::configureRpcThreadpool;
 using android::hardware::joinRpcThreadpool;
 
-using ::vendor::lineage::touch::V1_0::IGloveMode;
-using ::vendor::lineage::touch::V1_0::implementation::GloveMode;
-using ::vendor::lineage::touch::V1_0::IKeyDisabler;
-using ::vendor::lineage::touch::V1_0::implementation::KeyDisabler;
+using ::vendor::dot::touch::V1_0::IGloveMode;
+using ::vendor::dot::touch::V1_0::implementation::GloveMode;
+using ::vendor::dot::touch::V1_0::IKeyDisabler;
+using ::vendor::dot::touch::V1_0::implementation::KeyDisabler;
 
 int main() {
     sp<IGloveMode> gloveMode;
