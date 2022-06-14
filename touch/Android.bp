@@ -13,8 +13,8 @@
 // limitations under the License.
 
 cc_binary {
-    name: "vendor.lineage.touch@1.0-service.cancro",
-    init_rc: ["vendor.lineage.touch@1.0-service.cancro.rc"],
+    name: "vendor.dot.touch@1.0-service.cancro",
+    init_rc: ["vendor.dot.touch@1.0-service.cancro.rc"],
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
     vendor: true,
@@ -27,6 +27,6 @@ cc_binary {
         "libbase",
         "libhidlbase",
         "libutils",
-        "vendor.lineage.touch@1.0",
+        "vendor.dot.touch@1.0",
     ],
 }
